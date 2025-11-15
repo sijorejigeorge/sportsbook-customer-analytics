@@ -1,0 +1,28 @@
+campaign_id,campaign_name,campaign_type,start_date,end_date,description,cost_per_customer,bonus_amount,min_deposit,target_segments
+CAMP_00001,Welcome Bonus - January 2024,signup_bonus,2024-01-07,2024-01-23,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00002,High Roller Bonus - January 2024,vip,2024-01-28,2024-02-18,"Deposit $500, Get $200 Bonus",45.0,200,500,whale
+CAMP_00003,Welcome Bonus - January 2024,signup_bonus,2024-01-09,2024-01-22,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00004,Free Bet Friday - February 2024,engagement,2024-02-19,2024-03-01,$10 Free Bet Every Friday,10.0,10,0,"casual,regular,whale"
+CAMP_00005,Welcome Bonus - February 2024,signup_bonus,2024-02-14,2024-03-05,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00006,Free Bet Friday - February 2024,engagement,2024-02-15,2024-02-28,$10 Free Bet Every Friday,10.0,10,0,"casual,regular,whale"
+CAMP_00007,Free Bet Friday - March 2024,engagement,2024-03-27,2024-04-11,$10 Free Bet Every Friday,10.0,10,0,"casual,regular,whale"
+CAMP_00008,Reload Bonus - March 2024,retention,2024-03-08,2024-03-20,25% Reload Bonus up to $100,8.5,25,100,"regular,whale"
+CAMP_00009,Free Bet Friday - April 2024,engagement,2024-04-28,2024-05-12,$10 Free Bet Every Friday,10.0,10,0,"casual,regular,whale"
+CAMP_00010,Reload Bonus - April 2024,retention,2024-04-13,2024-04-28,25% Reload Bonus up to $100,8.5,25,100,"regular,whale"
+CAMP_00011,High Roller Bonus - May 2024,vip,2024-05-16,2024-06-03,"Deposit $500, Get $200 Bonus",45.0,200,500,whale
+CAMP_00012,High Roller Bonus - May 2024,vip,2024-05-23,2024-06-05,"Deposit $500, Get $200 Bonus",45.0,200,500,whale
+CAMP_00013,High Roller Bonus - June 2024,vip,2024-06-14,2024-06-28,"Deposit $500, Get $200 Bonus",45.0,200,500,whale
+CAMP_00014,High Roller Bonus - June 2024,vip,2024-06-03,2024-06-23,"Deposit $500, Get $200 Bonus",45.0,200,500,whale
+CAMP_00015,Reload Bonus - July 2024,retention,2024-07-09,2024-07-24,25% Reload Bonus up to $100,8.5,25,100,"regular,whale"
+CAMP_00016,Welcome Bonus - July 2024,signup_bonus,2024-07-07,2024-07-14,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00017,Welcome Bonus - August 2024,signup_bonus,2024-08-22,2024-08-29,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00018,High Roller Bonus - August 2024,vip,2024-08-24,2024-09-14,"Deposit $500, Get $200 Bonus",45.0,200,500,whale
+CAMP_00019,Welcome Bonus - September 2024,signup_bonus,2024-09-03,2024-09-12,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00020,High Roller Bonus - September 2024,vip,2024-09-04,2024-09-14,"Deposit $500, Get $200 Bonus",45.0,200,500,whale
+CAMP_00021,Welcome Bonus - October 2024,signup_bonus,2024-10-05,2024-10-23,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00022,Welcome Bonus - October 2024,signup_bonus,2024-10-26,2024-11-13,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00023,Welcome Bonus - November 2024,signup_bonus,2024-11-21,2024-12-08,"Deposit $50, Get $50 Bonus",15.0,50,50,"casual,regular,whale"
+CAMP_00024,Free Bet Friday - November 2024,engagement,2024-11-25,2024-12-05,$10 Free Bet Every Friday,10.0,10,0,"casual,regular,whale"
+CAMP_00025,Reload Bonus - December 2024,retention,2024-12-18,2025-01-06,25% Reload Bonus up to $100,8.5,25,100,"regular,whale"
+CAMP_00026,High Roller Bonus - December 2024,vip,2024-12-08,2024-12-27,"Deposit $500, Get $200 Bonus",45.0,200,500,whale
+CAMP_00027,Reload Bonus - December 2024,retention,2024-12-13,2024-12-21,25% Reload Bonus up to $100,8.5,25,100,"regular,whale"

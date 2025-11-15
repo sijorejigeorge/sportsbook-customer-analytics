@@ -1,0 +1,30 @@
+{
+  "generated_date": "2025-11-14 13:59:22",
+  "date_range": "2024-01-01 to 2024-12-31",
+  "total_customers": 10000,
+  "total_transactions": 6498,
+  "total_bets": 43966,
+  "total_sessions": 12273,
+  "total_campaigns": 27,
+  "channels": [
+    "paid_search",
+    "social_media",
+    "affiliate",
+    "organic"
+  ],
+  "sports": [
+    "football",
+    "basketball",
+    "baseball",
+    "soccer",
+    "tennis",
+    "hockey",
+    "golf",
+    "mma"
+  ],
+  "customer_segments": [
+    "casual",
+    "regular",
+    "whale"
+  ]
+}
