@@ -209,21 +209,6 @@ attribution_results = analyzer.compare_attribution_models(
 print(attribution_results[['Model', 'Total_Attribution', 'Channel_Distribution']])
 ```
 
-### 5. Machine Learning Models (`ml_predictive_models.py`) - working on it
-```python
-from ml_predictive_models import SportsbookMLPredictor
-
-predictor = SportsbookMLPredictor()
-
-# Train churn prediction model
-churn_model = predictor.train_churn_model(customer_features_df)
-print(f"Churn Model Accuracy: {churn_model['accuracy']:.3f}")
-
-# Predict customer risk scores
-risk_scores = predictor.predict_customer_risk_scores(current_customers_df)
-high_risk_customers = risk_scores[risk_scores['churn_probability'] > 0.7]
-```
-
 ## Dashboard Usage
 
 ### Streamlit Dashboard
@@ -250,37 +235,6 @@ streamlit run streamlit_dashboard.py
 2. **Calculated Fields**: 50+ advanced calculations
 3. **Data Source**: Connect to generated CSV files
 4. **Mobile Optimization**: Responsive design included
-
-## Machine Learning Models
-
-### Model Performance Summary
-| Model | Task | Algorithm | Accuracy/R² | Key Features |
-|-------|------|-----------|-------------|--------------|
-| Churn Prediction | Binary Classification | Random Forest | 92.3% | 40+ behavioral features |
-| LTV Forecasting | Regression | XGBoost | R² 0.847 | Transaction patterns, demographics |
-| Conversion Probability | Binary Classification | Logistic Regression | 88.7% | Campaign interactions, engagement |
-
-### Feature Engineering
-- **Behavioral Features**: Betting frequency, session duration, game preferences
-- **Engagement Features**: Login patterns, response to campaigns, support interactions
-- **Economic Features**: Deposit patterns, withdrawal behavior, balance trends
-- **Temporal Features**: Seasonality, day-of-week patterns, time-since-last-activity
-
-### Model Deployment
-```python
-# Load pre-trained models
-predictor = SportsbookMLPredictor()
-predictor.load_models('models/')
-
-# Batch prediction for all active customers
-predictions = predictor.predict_all_models(active_customers_df)
-
-# Results include:
-# - churn_probability (0-1)
-# - predicted_ltv (currency)
-# - conversion_probability (0-1)  
-# - risk_category ('Low', 'Medium', 'High')
-```
 
 ## Project Structure
 
